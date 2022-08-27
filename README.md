@@ -4,6 +4,5 @@ Mi registro
 
 ## Tabla de contenido
 
- - [Agenda](#agenda)
-  - [Tabla de contenido](#tabla-de-contenido)
-  - 
+  - [Hoja de vida](Hojadevida.md)
+  - [Visual Basic](VisualBasic.md)

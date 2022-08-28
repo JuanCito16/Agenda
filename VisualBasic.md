@@ -44,7 +44,8 @@ Sub prueba()
     End If
 End Sub
 ```
-##28/08/2022
+## 28/08/2022
+Ejercicio utilizando case
 
 ``` 
 Sub caso()

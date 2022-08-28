@@ -44,3 +44,26 @@ Sub prueba()
     End If
 End Sub
 ```
+##28/08/2022
+
+``` 
+Sub caso()
+    ing = InputBox("Ingresa su ingreso anual")
+    Select Case ing
+        Case 0 To 1000
+            MsgBox ("No hay impuesto")
+        Case 1001 To 10000
+            aum_imp = ing * 0.05
+            MsgBox ("El total a pagar es: ") & aum_imp
+        Case 10001 To 100000
+            aum_imp = ing * 0.15
+            MsgBox ("El total a pagar es: ") & aum_imp
+        Case 100001 To 10000000
+            aum_imp = ing * 0.2
+            MsgBox ("El total a pagar es: ") & aum_imp
+        Case Else
+            aum_imp = ing * 0.25
+            MsgBox ("El total a pagar es: ") & aum_imp
+    End Select
+End Sub
+``` 

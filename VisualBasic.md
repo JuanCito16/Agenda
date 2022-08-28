@@ -1,4 +1,4 @@
-## Dia 12/08/22
+## 12/08/22
 Programacion en Visual Basic con el instructor Henry
 
 ```
@@ -12,7 +12,7 @@ Sub Sena ()
 End Sub
 ```
 
-## Dia 16/08/2022
+## 16/08/2022
 Ejercicio Visual Basic
 
 ```

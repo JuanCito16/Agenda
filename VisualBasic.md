@@ -82,3 +82,15 @@ Sub guardar()
     datos.Cells(1, 7) = fila + 1
 End Sub
 ```
+Registro
+
+```
+Sub siuu()
+    For x = 1 To 15
+    Z = InputBox(" ingrese un nombre")
+    fila = Hoja1.Cells(1, 7)
+    Hoja1.Cells(fila, 2) = Z
+    Hoja1.Cells(1, 7) = fila + 1
+    Next x
+End Sub
+```

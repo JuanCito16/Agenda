@@ -68,3 +68,17 @@ Sub caso()
     End Select
 End Sub
 ``` 
+## 29/08/2022
+Crear registro
+
+```
+Sub guardar()
+    fila = datos.Cells(1, 7)
+    datos.Cells(fila, 1) = formulario.Cells(7, 4)
+    datos.Cells(fila, 2) = formulario.Cells(9, 4)
+    datos.Cells(fila, 3) = formulario.Cells(11, 4)
+    datos.Cells(fila, 4) = formulario.Cells(13, 4)
+    MsgBox ("los datos han sido guardados")
+    datos.Cells(1, 7) = fila + 1
+End Sub
+```

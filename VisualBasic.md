@@ -94,3 +94,15 @@ Sub siuu()
     Next x
 End Sub
 ```
+## 02/09/2022
+Ejercicio con Len y Mid
+
+```
+Sub nombres()
+    For x = 2 To 21
+        nombre = Nom.Cells(x, 1)
+        ulti = Len(nombre) - 1
+        Nom.Cells(x, 2) = Mid(nombre, ulti, 2)
+    Next x
+End Sub
+``` 

@@ -1,6 +1,8 @@
 ## 12/08/22
 Programacion en Visual Basic con el instructor Henry
 
+> En este ejercicio se muestra la diferencia entre variables con números y variables de letras(para las variables de letras se colocan las comillas)
+
 ```
 Sub Sena ()
  nom = "luis"
@@ -14,6 +16,8 @@ End Sub
 
 ## 16/08/2022
 Ejercicio Visual Basic
+
+> En este ejercicio se muestra el impuesto a pagar de una empresa según su ingreso anual(se usan if anidados)
 
 ```
 Sub prueba()
@@ -47,6 +51,8 @@ End Sub
 ## 28/08/2022
 Ejercicio utilizando case
 
+> En este ejercicio se muestra el impuesto a pagar de una empresa según su ingreso anual(se usa select case)
+
 ``` 
 Sub caso()
     ing = InputBox("Ingresa su ingreso anual")
@@ -71,6 +77,8 @@ End Sub
 ## 29/08/2022
 Crear registro
 
+> En este ejercicio se muestra cómo almacenar los datos dados en una hoja de excel a otra
+
 ```
 Sub guardar()
     fila = datos.Cells(1, 7)
@@ -83,6 +91,8 @@ Sub guardar()
 End Sub
 ```
 Registro
+
+>En este ejercicio se muestra cómo almacenar los datos dados en una hoja de excela  otra usando un for
 
 ```
 Sub siuu()
@@ -97,6 +107,8 @@ End Sub
 ## 02/09/2022
 Ejercicio con Len y Mid
 
+> En este ejercicio se muestra cómo almacenar las dos últimas letras de una variable(en este caso nombre) usando len y mid
+
 ```
 Sub nombres()
     For x = 2 To 21
@@ -108,6 +120,7 @@ End Sub
 ``` 
 Ejercicio #2
 
+> En este ejercicio se muestra cómo almacenar las dos últimas letras de una variable(en este caso municipio), y las dos primeras de dos variables(en este caso año y nombre)
 ```
 Sub nombres()
     For x = 2 To 21
